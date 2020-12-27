@@ -1,14 +1,14 @@
-body{
+body {
     background-color: #221f1f;
     color: white;
 }
+
 .home {
     height: 100vh;
     display: grid;
     align-items: center;
     justify-items: center;
 }
-
 
 .usersContainer {
     align-self: flex-start;
@@ -31,10 +31,12 @@ body{
     justify-items: center;
     transition: 0.1s;
 }
-.user:hover{
+
+.user:hover {
     font-size: 3.5vw;
 }
-.user:active{
+
+.user:active {
     width: 75%;
     height: 190px;
 }

@@ -43,7 +43,7 @@ class Catalog extends Component {
                         <div className="autoComplete">
                             <input type="text" placeholder="what do you feel like watch?" onChange={this.handleInput} className="searchInput" />
                             <div className="results">
-                                {this.state.term.length > 0 && this.state.filteredMovies.map(m => <SearchItem key={m.id} movie={m} userId={userId}/>)}
+                                {this.state.term.length > 0 && this.state.filteredMovies.map(m => <SearchItem key={m.id} movie={m} userId={userId} />)}
                             </div>
                         </div>
                         <div className="searchBtn">Find</div>

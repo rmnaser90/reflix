@@ -1,4 +1,4 @@
-.movieInfo{
+.movieInfo {
     width: 80vw;
     padding: 10vw;
     padding-top: 10px;
@@ -8,6 +8,6 @@
     justify-items: center;
 }
 
-.info-movieImg{
+.info-movieImg {
     width: 30vw;
 }
