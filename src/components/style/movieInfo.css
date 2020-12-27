@@ -1,0 +1,13 @@
+.movieInfo{
+    width: 80vw;
+    padding: 10vw;
+    padding-top: 10px;
+    display: grid;
+    grid-row: 300px;
+    align-items: center;
+    justify-items: center;
+}
+
+.info-movieImg{
+    width: 30vw;
+}

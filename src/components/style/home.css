@@ -1,0 +1,40 @@
+body{
+    background-color: #221f1f;
+    color: white;
+}
+.home {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.usersContainer {
+    align-self: flex-start;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.user {
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    width: 80%;
+    height: 200px;
+    background-color: darkcyan;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    transition: 0.1s;
+}
+.user:hover{
+    font-size: 3.5vw;
+}
+.user:active{
+    width: 75%;
+    height: 190px;
+}
